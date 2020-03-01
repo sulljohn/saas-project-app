@@ -17,7 +17,7 @@ module SaasProjectApp
     #     Devise::PasswordsController.layout "sign"
     #   end   # Devise
     # Initialize configuration defaults for originally generated Rails version.
-    config.load_defaults 5.2
+    # config.load_defaults 5.2
 
     # Source: https://railsapps.github.io/rails-environment-variables.html
     config.before_configuration do

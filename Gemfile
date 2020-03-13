@@ -38,6 +38,8 @@ gem 'bootsnap', '>= 1.1.0', require: false
 
 gem 'twitter-bootstrap-rails'
 gem 'devise-bootstrap-views'
+gem 'jquery-rails'
+gem 'bootstrap-datepicker-rails'
 
 group :production do
   gem 'rails_12factor'

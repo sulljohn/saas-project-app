@@ -1,6 +1,7 @@
-class Project < ApplicationRecord
+class Project < ActiveRecord::Base
   belongs_to :tenant
   validates_uniqueness_of :title
+  has_many :artifacts, dependent: :destroy
   validate :free_plan_can_only_have_one_project
 
   def free_plan_can_only_have_one_project
@@ -9,7 +10,7 @@ class Project < ApplicationRecord
     end
   end
 
-  def self.by_user_plan_and_tenant(tenant_id, users)
+  def self.by_plan_and_tenant(tenant_id)
     tenant = Tenant.find(tenant_id)
     if tenant.plan == 'premium'
       tenant.projects

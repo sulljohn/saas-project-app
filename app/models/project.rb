@@ -18,4 +18,4 @@ class Project < ActiveRecord::Base
       tenant.projects.order(:id).limit(1)
     end
   end
-end
+ends

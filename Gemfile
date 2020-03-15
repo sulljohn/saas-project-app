@@ -11,6 +11,7 @@ gem 'devise'
 gem 'milia'
 gem 'aws-sdk'
 gem 'stripe'
+gem 'font_awesome5_rails'
 
 # Use Puma as the app server
 gem 'puma', '~> 3.11'

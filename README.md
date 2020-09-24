@@ -1,24 +1,11 @@
-# README
+# SAAS project management app from Udemy Tutorial
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Link
 
-Things you may want to cover:
+[Link](https://sulljohn-saas-app.herokuapp.com/)
 
-* Ruby version
+## Info
 
-* System dependencies
+Made by following the tutorial: [Link](https://www.udemy.com/course/the-complete-ruby-on-rails-developer-course/)
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+I completed functionality to integrate mine with Stripe.
